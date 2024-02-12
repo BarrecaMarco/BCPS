@@ -94,3 +94,8 @@ for (i in row.names(expression_matrix)[1:100]) {
 A manuscript is currently under consideration for publication, to cite currently please refer to the bioRxiv preprint:
 
 ###### Add link
+
+# Further information
+Created by Marco Barreca at the University of Milano-Bicocca in collaboration with Dr Matteo Dugo at the IRCCS San Raffaele Hospital, under the supervision of Dr Maurizio Callari at Fondazione Michelangelo.
+
+
