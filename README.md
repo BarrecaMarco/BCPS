@@ -96,6 +96,6 @@ A manuscript is currently under consideration for publication, to cite currently
 ###### Add link
 
 # Further information
-Created by Marco Barreca at the University of Milano-Bicocca in collaboration with Dr Matteo Dugo at the IRCCS San Raffaele Hospital, under the supervision of Dr Maurizio Callari at Fondazione Michelangelo.
+Created by Dr Marco Barreca at the University of Milano-Bicocca in collaboration with Dr Matteo Dugo at the IRCCS San Raffaele Hospital, under the supervision of Dr Maurizio Callari at Fondazione Michelangelo.
 
 
