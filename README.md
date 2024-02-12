@@ -20,7 +20,7 @@ We also recommend using the ExpressionSet object to manage the expression profil
 You can also add other gene sets to your list and evaluate them contemporaneously.
 
 ```
-load("../expression_set.RData") 	#Upload the ExpressionSet object of your dataset ("eset" object)
+load("../expression_set.RData") 	#Upload the ExpressionSet object of your dataset
 
 l.signature <- list(BCPS=list(BCPS_UP=c("AP1M2", "CDK5", "PAFAH1B3", "SLC25A10", "SMG5"),
                     BCPS_DOWN=c("CXCL12", "IFFO1", "MFAP4","TGFBR2")))
