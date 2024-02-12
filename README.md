@@ -7,7 +7,7 @@ The score showed promising results in different applications:
 
 We present a pipeline to evaluate the BCPS and to perform BCPS correction.
 
-# Applications of BCPS
+## Applications of BCPS
 For all the BCPS applications developed so far, you need the language program ```R``` and the packages ```singscore``` (version 1.14.0), ```stats``` (version 4.1.3), and ```Biobase``` (version 2.54.0). 
 
 ```
@@ -26,7 +26,7 @@ l.signature <- list(BCPS=list(BCPS_UP=c("AP1M2", "CDK5", "PAFAH1B3", "SLC25A10",
                     BCPS_DOWN=c("CXCL12", "IFFO1", "MFAP4","TGFBR2")))
 
 ```
-## Evaluation of BCPS
+### Evaluation of BCPS
 To evaluate BCPS we used a function able to manage the list of genesets and recognize the direction of subsets ("BCPS_UP" and "BCPS_DOWN").
 
 
@@ -73,7 +73,7 @@ result <- result[,c(2,1)]
 
 In the "result" object you can find the BCPS (and other possible genesets) evaluated for each sample of your dataset.
 
-## Sampling bias correction through BCPS
+### Sampling bias correction through BCPS
 To correct the sampling bias you can use the BCPS evaluated in the previous paragraph to correct the expression of each gene in your expression matrix.
 
 ```
