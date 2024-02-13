@@ -62,13 +62,11 @@ result <- result[,c(2,1)]
 ######################### BCPS correction ######################################   
 expression_matrix <- exprs(eset)
 patients <- colnames(expression_matrix)
-corrected_matrix <- expression_matrix[1:100,]
 
-for (i in row.names(expression_matrix)[1:100]) {
-  l<-lm(expression_matrix[i,]~result[patients,"BCPS"])
-  corrected_matrix[i,]<-l$residuals 
-  rm("l")
-}
+corrected_matrix <- apply(expression_matrix, 1, function(x) {
+  l <- lm(x~result[patients,"BCPS"])
+  x <- l$residuals})
+corrected_matrix <- as.matrix(t(corrected_matrix))
 
 # "corrected_matrix" contained a gene expression matrix in which each gene was 
 # corrected by its correlation with BCPS.
