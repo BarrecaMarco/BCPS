@@ -84,9 +84,7 @@ adjusted_matrix <- as.matrix(t(adjusted_matrix))
 "adjusted_matrix" contains a gene expression matrix in which each gene was adjusted based on its linear relationship with BCPS.
 
 # Publication
-A manuscript is currently under consideration for publication, to cite the BCPS currently please refer to the bioRxiv preprint:
-
-###### Add link
+A manuscript is currently under consideration for publication, to cite the BCPS currently please refer to the bioRxiv preprint: https://biorxiv.org/cgi/content/short/2024.02.23.581701v1
 
 # Further information
 Created by Dr Marco Barreca at the University of Milano-Bicocca in collaboration with Dr Matteo Dugo at the IRCCS San Raffaele Hospital, under the supervision of Dr Maurizio Callari at Fondazione Michelangelo.
