@@ -83,8 +83,11 @@ adjusted_matrix <- as.matrix(t(adjusted_matrix))
 
 "adjusted_matrix" contains a gene expression matrix in which each gene was adjusted based on its linear relationship with BCPS.
 
-# Publication
-A manuscript is currently under consideration for publication, to cite the BCPS currently please refer to the bioRxiv preprint: https://biorxiv.org/cgi/content/short/2024.02.23.581701v1
+# Cite BCPS
+If you find the BCPS useful, please cite our work as follows:
+ 
+Barreca, M., Dugo, M., Galbardi, B. et al. Development and validation of a gene expression-based Breast Cancer Purity Score. npj Precis. Onc. 8, 242 (2024). 
+DOI: https://doi.org/10.1038/s41698-024-00730-7
 
 # Further information
 Created by Dr Marco Barreca at the University of Milano-Bicocca in collaboration with Dr Matteo Dugo at the IRCCS San Raffaele Hospital, under the supervision of Dr Maurizio Callari at Fondazione Michelangelo.
