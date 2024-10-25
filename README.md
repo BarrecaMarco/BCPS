@@ -87,6 +87,7 @@ adjusted_matrix <- as.matrix(t(adjusted_matrix))
 If you find the BCPS useful, please cite our work as follows:
  
 Barreca, M., Dugo, M., Galbardi, B. et al. Development and validation of a gene expression-based Breast Cancer Purity Score. npj Precis. Onc. 8, 242 (2024). 
+
 DOI: https://doi.org/10.1038/s41698-024-00730-7
 
 # Further information
